@@ -1,8 +1,14 @@
-# Miscellaneous
+# ============================================================================
+# Miscellaneous & Backup Files
+# ============================================================================
 *.class
 *.log
 *.pyc
 *.swp
+*.swo
+*~
+*.orig
+*.patch
 .DS_Store
 .atom/
 .build/
@@ -12,18 +18,42 @@
 .swiftpm/
 migrate_working_dir/
 
+# ============================================================================
+# IDE & Editor Files
+# ============================================================================
 # IntelliJ related
 *.iml
 *.ipr
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# VS Code (uncomment if you want to exclude VS Code settings)
+.vscode/
+*.code-workspace
 
-# Flutter/Dart/Pub related
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+.vim/
+.vimrc
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+.#*
+*#
+
+# Other editors
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# Flutter/Dart/Pub Related
+# ============================================================================
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
@@ -36,18 +66,48 @@ migrate_working_dir/
 /coverage/
 pubspec.lock
 
+# Generated files
+.dart_frog_cache/
+lib/generated_plugin_registrant.dart
+lib/generated_plugin_registrant_ios.dart
+
+# ============================================================================
+# Build & Generated Artifacts
+# ============================================================================
 # Symbolication related
 app.*.symbols
+app.*.symbol
 
 # Obfuscation related
 app.*.map.json
+app.*.map
 
 # Android Studio will place build artifacts here
 /android/app/debug
 /android/app/profile
 /android/app/release
+/android/.gradle/
+/android/local.properties
+/android/.idea/
+android/app/release/app-release.apk
+android/app/release/app-release.aar
 
-# Documentation and session files (generated during development)
+# iOS build artifacts
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Flutter.xcframework
+/ios/Flutter/generated.xcconfig
+/ios/Pods/
+/ios/Podfile.lock
+ios/Flutter/ephemeral/
+
+# Web build artifacts
+/web/main.dart.js
+/web/main.dart.js.map
+
+# ============================================================================
+# Documentation & Session Files (Auto-Generated)
+# ============================================================================
 CHANGES_APPLIED.md
 COLOR_REFACTOR_COMPLETE.md
 COMPLETE_APP_FIXES.md
@@ -70,22 +130,88 @@ TEST_FIXES_APPLIED.md
 TEST_IMPLEMENTATION_SUMMARY.md
 TEST_STATUS_REPORT.md
 TEST_SUITE_GUIDE.md
+*_SUMMARY.md
+*_REPORT.md
+*_GUIDE.md
+*_STATUS.md
+*_COMPLETE.md
 
-# Archives
+# ============================================================================
+# Archives & Compressed Files
+# ============================================================================
 *.rar
 *.zip
 *.tar.gz
+*.tar
+*.tgz
+*.7z
 
-# IDE Files
-.vscode/
-*.swp
-*.swo
-*~
-
-# OS Files
+# ============================================================================
+# OS-Specific Files
+# ============================================================================
+# Windows
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# Environment files
+# macOS
+.AppleDouble
+.AppleDBLock
+.LSOverride
+._*
+
+# Linux
+.~lock.*
+
+# ============================================================================
+# Environment & Config Files (Secrets)
+# ============================================================================
 .env
 .env.local
 .env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+.ssh/
+
+# ============================================================================
+# Node/JavaScript (if using web or any JS tooling)
+# ============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ============================================================================
+# Temporary & Cache Files
+# ============================================================================
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# ============================================================================
+# Git & Version Control
+# ============================================================================
+.git/
+.gitignore.bak
+*.orig
+.merge_file*
+
+# ============================================================================
+# macOS Finder
+# ============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
