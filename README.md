@@ -509,8 +509,8 @@ For issues, questions, or suggestions:
 ## 👤 Author
 
 **Vishnu V**
-- GitHub: [@thevizzzard](https://github.com/thevizzzard)
-- Email: thevizzzard@gmail.com
+- GitHub: [@VishnuWei](https://github.com/VishnuWei)
+- Email: vishnu29variyamkandy@gmail.com
 
 ---
 
