@@ -1,0 +1,91 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+pubspec.lock
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Documentation and session files (generated during development)
+CHANGES_APPLIED.md
+COLOR_REFACTOR_COMPLETE.md
+COMPLETE_APP_FIXES.md
+COMPLETE_TEST_SUITE.md
+CRITICAL_BUGS_FIXED.md
+CRITICAL_FIXES_REQUIRED.md
+ERRORS_FIXED.md
+FINAL_FIXES_APPLIED.md
+FINAL_TEST_SUMMARY.md
+INTEGRATION_COMPLETE.md
+NETWORK_AND_TESTING_GUIDE.md
+PHASE1_IMPLEMENTATION_GUIDE.md
+PHASE1_STATUS.md
+PRODUCTION_REFACTOR_PLAN.md
+QUICK_FIX_GUIDE.md
+QUICK_START_TESTS.md
+SESSION_SUMMARY.md
+TEST_DEPRECATION_FIXES.md
+TEST_FIXES_APPLIED.md
+TEST_IMPLEMENTATION_SUMMARY.md
+TEST_STATUS_REPORT.md
+TEST_SUITE_GUIDE.md
+
+# Archives
+*.rar
+*.zip
+*.tar.gz
+
+# IDE Files
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS Files
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
